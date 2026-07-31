@@ -1,0 +1,10 @@
+const notas = [9,8,6];
+
+notas.pop(3);
+notas.push(10);
+
+const media = ( notas[0] + notas [1] + notas [2] ) / notas.length;
+
+console.log(` A média é ${media}. `);
+
+console.log(` ideal é {3}. `)
