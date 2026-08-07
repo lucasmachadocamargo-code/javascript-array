@@ -1,7 +1,7 @@
 const nomes = ["lucas wendel " , "maycon ","luan "];
 
 const nomesplanorizado = nomes.map (( nome)=>{
-return nome.toUperCase();
+return nome.toUpperCase();
 });
 
 console.log( nomesplanorizado);
